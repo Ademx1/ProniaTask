@@ -18,6 +18,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Models\" />
@@ -48,6 +49,8 @@
     <None Remove="Views\Shared\Components\" />
     <None Remove="Views\Shared\Components\Footer\" />
     <None Remove="Views\Shared\Components\Header\" />
+    <None Remove="ViewModels\AuthVMs\" />
+    <None Remove="Views\Auth\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -78,5 +81,7 @@
     <Folder Include="Views\Shared\Components\" />
     <Folder Include="Views\Shared\Components\Footer\" />
     <Folder Include="Views\Shared\Components\Header\" />
+    <Folder Include="ViewModels\AuthVMs\" />
+    <Folder Include="Views\Auth\" />
   </ItemGroup>
 </Project>

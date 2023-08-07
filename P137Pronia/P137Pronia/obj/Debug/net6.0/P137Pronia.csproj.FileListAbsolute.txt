@@ -89,3 +89,4 @@
 /Users/ademmac/Projects/P137Pronia/P137Pronia/obj/Debug/net6.0/P137Pronia.pdb
 /Users/ademmac/Projects/P137Pronia/P137Pronia/obj/Debug/net6.0/P137Pronia.genruntimeconfig.cache
 /Users/ademmac/Projects/P137Pronia/P137Pronia/obj/Debug/net6.0/ref/P137Pronia.dll
+/Users/ademmac/Projects/P137Pronia/P137Pronia/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

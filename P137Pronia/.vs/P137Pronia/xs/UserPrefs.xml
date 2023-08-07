@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{38E74636-C564-4EDF-BF4C-98EF7D309F51}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.P137Pronia PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="P137Pronia/Areas/Manage/Views/_ViewImports.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="P137Pronia/ViewComponents/BasketViewComponent.cs">
     <Files>
-      <File FileName="P137Pronia/Controllers/HomeController.cs" Line="108" Column="1" />
-      <File FileName="P137Pronia/Controllers/FlowerController.cs" Line="76" Column="2" />
+      <File FileName="P137Pronia/Controllers/HomeController.cs" />
+      <File FileName="P137Pronia/Controllers/FlowerController.cs" Line="76" Column="3" />
       <File FileName="P137Pronia/Models/BaseEntity.cs" />
       <File FileName="P137Pronia/Models/Category.cs" />
       <File FileName="P137Pronia/Models/Product.cs" />
@@ -12,47 +14,74 @@
       <File FileName="P137Pronia/Models/ProductImage.cs" />
       <File FileName="P137Pronia/Models/Setting.cs" />
       <File FileName="P137Pronia/Models/Slider.cs" />
-      <File FileName="P137Pronia/appsettings.json" />
-      <File FileName="P137Pronia/Program.cs" />
+      <File FileName="P137Pronia/appsettings.json" Line="1" Column="1" />
+      <File FileName="P137Pronia/Program.cs" Line="52" Column="11" />
       <File FileName="P137Pronia/Services/LayoutService.cs" />
-      <File FileName="P137Pronia/Services/ServiceRegistration.cs" />
-      <File FileName="P137Pronia/DataAccess/ProniaDBContext.cs" Line="22" Column="2" />
+      <File FileName="P137Pronia/Services/ServiceRegistration.cs" Line="1" Column="1" />
+      <File FileName="P137Pronia/DataAccess/ProniaDBContext.cs" Line="24" Column="2" />
       <File FileName="P137Pronia/Services/Interfaces/ICategoryService.cs" />
       <File FileName="P137Pronia/Services/Interfaces/IProductService.cs" />
       <File FileName="P137Pronia/Services/Interfaces/ISliderService.cs" />
       <File FileName="P137Pronia/Services/Implements/SliderService.cs" />
       <File FileName="P137Pronia/Services/Implements/ProductService.cs" />
       <File FileName="P137Pronia/Services/Implements/CategoryService.cs" />
-      <File FileName="P137Pronia/ViewModels/SliderVMs/UpdateSliderVM.cs" Line="18" Column="2" />
-      <File FileName="P137Pronia/ViewModels/SliderVMs/CreateSliderVM.cs" Line="18" Column="2" />
-      <File FileName="P137Pronia/ViewModels/ProductVMs/CreateProductVM.cs" Line="27" Column="1" />
-      <File FileName="P137Pronia/ViewModels/ProductVMs/FilterVM.cs" Line="11" Column="2" />
-      <File FileName="P137Pronia/ViewModels/ProductVMs/GetShopVM.cs" Line="14" Column="1" />
-      <File FileName="P137Pronia/ViewModels/ProductVMs/UpdateProductGetVM.cs" Line="29" Column="2" />
-      <File FileName="P137Pronia/ViewModels/ProductVMs/UpdateProductVM.cs" Line="27" Column="2" />
-      <File FileName="P137Pronia/ViewModels/HomeVMs/HomeVM.cs" Line="10" Column="2" />
-      <File FileName="P137Pronia/ViewModels/BasketVMs/BasketItemVM.cs" Line="9" Column="2" />
-      <File FileName="P137Pronia/ViewModels/BasketVMs/BasketItemProductVM.cs" Line="11" Column="2" />
-      <File FileName="P137Pronia/Areas/Manage/Controllers/SliderController.cs" Line="8" Column="29" />
-      <File FileName="P137Pronia/Areas/Manage/Controllers/ProductController.cs" Line="150" Column="2" />
+      <File FileName="P137Pronia/ViewModels/SliderVMs/UpdateSliderVM.cs" />
+      <File FileName="P137Pronia/ViewModels/SliderVMs/CreateSliderVM.cs" />
+      <File FileName="P137Pronia/ViewModels/ProductVMs/CreateProductVM.cs" />
+      <File FileName="P137Pronia/ViewModels/ProductVMs/FilterVM.cs" />
+      <File FileName="P137Pronia/ViewModels/ProductVMs/GetShopVM.cs" />
+      <File FileName="P137Pronia/ViewModels/ProductVMs/UpdateProductGetVM.cs" />
+      <File FileName="P137Pronia/ViewModels/ProductVMs/UpdateProductVM.cs" />
+      <File FileName="P137Pronia/ViewModels/HomeVMs/HomeVM.cs" />
+      <File FileName="P137Pronia/ViewModels/BasketVMs/BasketItemVM.cs" />
+      <File FileName="P137Pronia/ViewModels/BasketVMs/BasketItemProductVM.cs" />
+      <File FileName="P137Pronia/Areas/Manage/Controllers/SliderController.cs" />
+      <File FileName="P137Pronia/Areas/Manage/Controllers/ProductController.cs" />
       <File FileName="P137Pronia/Areas/Manage/Controllers/CategoryController.cs" Line="34" Column="2" />
-      <File FileName="P137Pronia/Areas/Manage/Views/_ViewImports.cshtml" Line="12" Column="2" />
+      <File FileName="P137Pronia/Areas/Manage/Views/_ViewImports.cshtml" Line="5" Column="40" />
       <File FileName="P137Pronia/Areas/Manage/Views/_ViewStart.cshtml" Line="3" Column="2" />
+      <File FileName="P137Pronia/Areas/Manage/Views/Slider/Create.cshtml" Line="31" Column="8" />
+      <File FileName="P137Pronia/Areas/Manage/Views/Slider/Index.cshtml" Line="67" Column="2" />
+      <File FileName="P137Pronia/Areas/Manage/Views/Slider/Update.cshtml" Line="30" Column="8" />
+      <File FileName="P137Pronia/Areas/Manage/Views/Shared/_ValidationPartial.cshtml" Line="6" Column="71" />
+      <File FileName="P137Pronia/Areas/Manage/Views/Shared/_AdminLayout.cshtml" Line="359" Column="8" />
+      <File FileName="P137Pronia/appsettings.Development.json" />
+      <File FileName="P137Pronia/Areas/Manage/Views/Product/Create.cshtml" Line="72" Column="3" />
+      <File FileName="P137Pronia/Areas/Manage/Views/Product/Index.cshtml" Line="77" Column="2" />
+      <File FileName="P137Pronia/Areas/Manage/Views/Product/Update.cshtml" Line="114" Column="2" />
+      <File FileName="P137Pronia/Areas/Manage/Views/Category/Create.cshtml" Line="11" Column="8" />
+      <File FileName="P137Pronia/Areas/Manage/Views/Category/Index.cshtml" Line="26" Column="1" />
+      <File FileName="P137Pronia/ViewComponents/HeaderViewComponent.cs" Line="22" Column="2" />
+      <File FileName="P137Pronia/ViewComponents/FooterViewComponent.cs" Line="22" Column="2" />
+      <File FileName="P137Pronia/Extentions/FileExtension.cs" Line="10" Column="2" />
+      <File FileName="P137Pronia/ExtentionServices/Interfaces/IFileService.cs" Line="9" Column="2" />
+      <File FileName="P137Pronia/ExtentionServices/Implements/FileService.cs" Line="54" Column="2" />
+      <File FileName="P137Pronia/Views/Flower/Index.cshtml" Line="181" Column="2" />
+      <File FileName="P137Pronia/Views/Flower/Detail.cshtml" Line="408" Column="8" />
+      <File FileName="P137Pronia/Views/Home/Index.cshtml" Line="1458" Column="2" />
+      <File FileName="P137Pronia/Views/Shared/Error.cshtml" Line="1" Column="1" />
+      <File FileName="P137Pronia/Views/Shared/_BasketPartial.cshtml" Line="1" Column="1" />
+      <File FileName="P137Pronia/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="P137Pronia/Views/Shared/_Layout.cshtml.css" Line="1" Column="1" />
+      <File FileName="P137Pronia/Views/Shared/_ProductFilterPartial.cshtml" Line="1" Column="1" />
+      <File FileName="P137Pronia/Views/Shared/_ProductPartial.cshtml" Line="1" Column="1" />
+      <File FileName="P137Pronia/Views/Shared/Components/Header/Default.cshtml" Line="744" Column="1" />
+      <File FileName="P137Pronia/Views/Shared/Components/Footer/Default.cshtml" Line="250" Column="11" />
+      <File FileName="P137Pronia/Views/_ViewImports.cshtml" Line="6" Column="39" />
+      <File FileName="P137Pronia/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="P137Pronia/Controllers/AuthController.cs" Line="12" Column="34" />
+      <File FileName="P137Pronia/Models/ApppUser.cs" Line="13" Column="2" />
+      <File FileName="P137Pronia/ViewComponents/BasketViewComponent.cs" Line="12" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="P137Pronia" expanded="True">
+          <Node name="P137Pronia">
             <Node name="P137Pronia">
-              <Node name="Areas">
-                <Node name="Manage">
-                  <Node name="Views">
-                    <Node name="_ViewImports.cshtml" selected="True" />
-                  </Node>
-                </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="ViewComponents">
+                <Node name="BasketViewComponent.cs" selected="True" />
               </Node>
-              <Node name="DataAccess" expanded="True" />
-              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -62,6 +91,4 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.P137Pronia PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
