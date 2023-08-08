@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using P137Pronia.DataAccess;
 
@@ -11,9 +12,11 @@ using P137Pronia.DataAccess;
 namespace P137Pronia.Migrations
 {
     [DbContext(typeof(ProniaDBContext))]
-    partial class ProniaDBContextModelSnapshot : ModelSnapshot
+    [Migration("20230807213338_CreatedUsersTable")]
+    partial class CreatedUsersTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -316,45 +319,6 @@ namespace P137Pronia.Migrations
                     b.ToTable("ProductCategories");
                 });
 
-            modelBuilder.Entity("P137Pronia.Models.ProductComment", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("AppUserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("Comment")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<int?>("ParentId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("PostedTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AppUserId");
-
-                    b.HasIndex("ParentId");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("ProductComments");
-                });
-
             modelBuilder.Entity("P137Pronia.Models.ProductImage", b =>
                 {
                     b.Property<int>("Id")
@@ -518,31 +482,6 @@ namespace P137Pronia.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("P137Pronia.Models.ProductComment", b =>
-                {
-                    b.HasOne("P137Pronia.Models.AppUser", "AppUser")
-                        .WithMany("ProductComments")
-                        .HasForeignKey("AppUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("P137Pronia.Models.ProductComment", "Parent")
-                        .WithMany("Children")
-                        .HasForeignKey("ParentId");
-
-                    b.HasOne("P137Pronia.Models.Product", "Product")
-                        .WithMany("ProductComments")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("AppUser");
-
-                    b.Navigation("Parent");
-
-                    b.Navigation("Product");
-                });
-
             modelBuilder.Entity("P137Pronia.Models.ProductImage", b =>
                 {
                     b.HasOne("P137Pronia.Models.Product", "Product")
@@ -563,19 +502,7 @@ namespace P137Pronia.Migrations
                 {
                     b.Navigation("ProductCategories");
 
-                    b.Navigation("ProductComments");
-
                     b.Navigation("ProductImages");
-                });
-
-            modelBuilder.Entity("P137Pronia.Models.ProductComment", b =>
-                {
-                    b.Navigation("Children");
-                });
-
-            modelBuilder.Entity("P137Pronia.Models.AppUser", b =>
-                {
-                    b.Navigation("ProductComments");
                 });
 #pragma warning restore 612, 618
         }

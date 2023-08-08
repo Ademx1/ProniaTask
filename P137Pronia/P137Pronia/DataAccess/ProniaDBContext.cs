@@ -14,7 +14,8 @@ namespace P137Pronia.DataAccess
         public DbSet<Category> Categories { get; set; }
         public DbSet<ProductCategory> ProductCategories { get; set; }
         public DbSet<Setting> Settings { get; set; }
-        public DbSet<AppUser> ApppUsers { get; set; }
+        public DbSet<AppUser> AppUsers { get; set; }
+        public DbSet<ProductComment> ProductComments { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Category>().HasIndex(p => p.Name).IsUnique();

@@ -23,5 +23,6 @@ namespace P137Pronia.Models
         public string? HoverImage { get; set; }
         public ICollection<ProductImage>? ProductImages { get; set; }
         public ICollection<ProductCategory>? ProductCategories { get; set; }
+        public ICollection<ProductComment>? ProductComments { get; set; }
     }
 }
