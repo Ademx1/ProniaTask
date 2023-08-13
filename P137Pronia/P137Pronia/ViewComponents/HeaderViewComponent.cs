@@ -16,7 +16,7 @@ namespace P137Pronia.ViewComponents
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            return View(await _context.Settings.ToDictionaryAsync(s => s.Key, s => s.Value));
+            return View(await _context.Settings.ToDictionaryAsync(s=>s.Key, s=>s.Value));
         }
     }
 }

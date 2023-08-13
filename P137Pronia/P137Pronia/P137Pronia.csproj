@@ -23,9 +23,11 @@
   <ItemGroup>
     <None Remove="Areas\Manage\Views\User\" />
     <None Remove="ViewModels\UserVMs\" />
+    <None Remove="Views\Shared\Components\Basket\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\Manage\Views\User\" />
     <Folder Include="ViewModels\UserVMs\" />
+    <Folder Include="Views\Shared\Components\Basket\" />
   </ItemGroup>
 </Project>
