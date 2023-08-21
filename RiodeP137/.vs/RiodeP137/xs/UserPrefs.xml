@@ -1,0 +1,106 @@
+﻿<Properties StartupConfiguration="{670EE14A-135C-4FFA-B66B-457BD99F79BA}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.RiodeP137 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RiodeP137/Areas/Admin/Views/Product/Create.cshtml">
+    <Files>
+      <File FileName="../../Desktop/html_files/demo15.html" />
+      <File FileName="RiodeP137/Views/Home/Index.cshtml" />
+      <File FileName="RiodeP137/appsettings.json" Line="10" Column="50" />
+      <File FileName="RiodeP137/Models/BaseEntity.cs" Line="1" Column="28" />
+      <File FileName="RiodeP137/Models/AppUser.cs" Line="10" Column="11" />
+      <File FileName="RiodeP137/Models/Category.cs" Line="9" Column="18" />
+      <File FileName="RiodeP137/Models/Color.cs" />
+      <File FileName="RiodeP137/Models/Product.cs" Line="33" Column="20" />
+      <File FileName="RiodeP137/Models/ProductBadges.cs" Line="2" Column="16" />
+      <File FileName="RiodeP137/Models/ProductColors.cs" Line="2" Column="16" />
+      <File FileName="RiodeP137/Models/ProductImages.cs" />
+      <File FileName="RiodeP137/Models/ResetPasswordCode.cs" />
+      <File FileName="RiodeP137/Models/Review.cs" />
+      <File FileName="RiodeP137/Models/Setting.cs" />
+      <File FileName="RiodeP137/Models/Slider.cs" />
+      <File FileName="RiodeP137/Models/UserBasket.cs" />
+      <File FileName="RiodeP137/Views/_ViewImports.cshtml" />
+      <File FileName="RiodeP137/Views/Account/ConfirmEmail.cshtml" />
+      <File FileName="RiodeP137/Views/Account/ConfirmPassword.cshtml" />
+      <File FileName="RiodeP137/Views/Account/ForgotPass.cshtml" />
+      <File FileName="RiodeP137/Views/Account/Login.cshtml" />
+      <File FileName="RiodeP137/Views/Account/Register.cshtml" />
+      <File FileName="RiodeP137/Views/Account/ResetPassword.cshtml" />
+      <File FileName="RiodeP137/Views/Product/Detail.cshtml" />
+      <File FileName="RiodeP137/Views/Product/Shop.cshtml" />
+      <File FileName="RiodeP137/Views/Shared/_ProductCommentPartialView.cshtml" />
+      <File FileName="RiodeP137/Views/Shared/_ProductsPartialView.cshtml" />
+      <File FileName="RiodeP137/Views/Shared/Components/Basket/Default.cshtml" />
+      <File FileName="RiodeP137/Views/Shared/Components/Filter/Default.cshtml" />
+      <File FileName="RiodeP137/Views/Shared/Components/FourCrudProduct/Default.cshtml" />
+      <File FileName="RiodeP137/Views/Shared/_Layout.cshtml" />
+      <File FileName="RiodeP137/Views/Shared/_Layout.cshtml.css" />
+      <File FileName="RiodeP137/Views/_ViewStart.cshtml" />
+      <File FileName="RiodeP137/Controllers/HomeController.cs" />
+      <File FileName="RiodeP137/Controllers/AccountController.cs" />
+      <File FileName="RiodeP137/Controllers/ProductController.cs" Line="42" Column="33" />
+      <File FileName="RiodeP137/DataAccess/RiodeDbContext.cs" Line="15" Column="23" />
+      <File FileName="RiodeP137/ViewModels/FilterItemsVM.cs" />
+      <File FileName="RiodeP137/ViewModels/ForgotPassVM.cs" />
+      <File FileName="RiodeP137/ViewModels/FromFilterVM.cs" />
+      <File FileName="RiodeP137/ViewModels/HomeVM.cs" />
+      <File FileName="RiodeP137/ViewModels/LoginVM.cs" />
+      <File FileName="RiodeP137/ViewModels/RegisterVM.cs" />
+      <File FileName="RiodeP137/ViewModels/ResetPasswordVM.cs" />
+      <File FileName="RiodeP137/ViewComponents/BasketViewComponent.cs" Line="4" Column="27" />
+      <File FileName="RiodeP137/Areas/Manage/Controllers/ProductController.cs" Line="269" Column="36" />
+      <File FileName="RiodeP137/Areas/Manage/Controllers/SliderController.cs" Line="117" Column="36" />
+      <File FileName="RiodeP137/Areas/Manage/ViewModels/CategoryVM.cs" Line="11" Column="23" />
+      <File FileName="RiodeP137/Areas/Manage/Views/_ViewImports.cshtml" />
+      <File FileName="RiodeP137/Areas/Manage/Views/_ViewStart.cshtml" />
+      <File FileName="RiodeP137/Areas/Manage/Views/Admin/Index.cshtml" />
+      <File FileName="RiodeP137/Areas/Manage/Views/Badge/Create.cshtml" />
+      <File FileName="RiodeP137/Areas/Manage/Views/Badge/Edit.cshtml" />
+      <File FileName="RiodeP137/Areas/Manage/Views/Badge/Index.cshtml" />
+      <File FileName="RiodeP137/Areas/Manage/Views/Category/Create.cshtml" />
+      <File FileName="RiodeP137/Areas/Manage/Views/Category/Edit.cshtml" />
+      <File FileName="RiodeP137/Areas/Manage/Views/Category/Index.cshtml" />
+      <File FileName="RiodeP137/Areas/Manage/Views/Product/Create.cshtml" Line="91" Column="1" />
+      <File FileName="RiodeP137/Areas/Manage/Views/Product/Edit.cshtml" />
+      <File FileName="RiodeP137/Areas/Manage/Views/Product/Index.cshtml" Line="2" Column="9" />
+      <File FileName="RiodeP137/Areas/Manage/Views/Shared/_Layout.cshtml" />
+      <File FileName="RiodeP137/Areas/Manage/Views/Slider/Create.cshtml" Line="20" Column="8" />
+      <File FileName="RiodeP137/Areas/Manage/Views/Slider/Index.cshtml" />
+      <File FileName="RiodeP137/Areas/Manage/Views/Slider/Edit.cshtml" Line="22" Column="8" />
+      <File FileName="RiodeP137/Models/Badge.cs" Line="3" Column="20" />
+      <File FileName="RiodeP137/Areas/Manage/Controllers/AdminController.cs" Line="1" Column="1" />
+      <File FileName="RiodeP137/Areas/Manage/Controllers/BadgeController.cs" Line="1" Column="1" />
+      <File FileName="RiodeP137/Areas/Manage/Controllers/CategoryController.cs" Line="121" Column="36" />
+      <File FileName="RiodeP137/Program.cs" Line="59" Column="48" />
+      <File FileName="RiodeP137/ViewComponents/FilterViewComponent.cs" Line="22" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RiodeP137" expanded="True">
+            <Node name="RiodeP137">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Areas" expanded="True">
+                <Node name="Admin" expanded="True" />
+              </Node>
+              <Node name="Constant" expanded="True" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="DataAccess" expanded="True" />
+              <Node name="Extentions" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="ViewComponents" expanded="True" />
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
